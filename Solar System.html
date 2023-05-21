@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+body{
+  background-color :black ;
+}
+.sun{
+  position :absolute ;
+    left :80%;
+    right :0;
+    top :80%;
+    bottom :0;
+    margin :auto ;
+    width :50px ;
+    height :50px ;
+    background-color: #ffff33;
+    border-radius :500px ;
+    
+}
+ .mercury{
+    position :absolute ;
+    left :0;
+    right :0;
+    top :0;
+    bottom :0;
+    margin :auto ;
+    width :25px ;
+    height :25px ;
+    background-color :#ccccff ;
+    border-radius :500px ;
+    animation: mercury 1s linear infinite ;
+  }
+@keyframes mercury{
+    0%{
+      transform :rotate(0deg)translate(50px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(50px)rotate(-360deg) ; 
+    }
+  }
+   .venus{
+    position :absolute ;
+    left :0;
+    right :0;
+    top :0;
+    bottom :0;
+    margin :auto ;
+    width :25px ;
+    height :25px ;
+    background-color :brown ;
+    border-radius :500px ;
+    animation: venus 2s linear infinite ;
+  }
+@keyframes venus{
+    0%{
+      transform :rotate(0deg)translate(80px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(80px)rotate(-360deg) ; 
+    }
+  }
+  .earth{
+    position :absolute ;
+    left :0;
+    right :0;
+    top :0;
+    bottom :0;
+    margin :auto ;
+    width :25px ;
+    height :25px ;
+    background-color :blue ;
+    border-radius :500px ;
+    animation: earth 3s linear infinite ;
+  }
+@keyframes earth{
+    0%{
+      transform :rotate(0deg)translate(110px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(110px)rotate(-360deg) ; 
+    }
+  }
+  .moon{
+    position :absolute ;
+    width :5px ;
+    height :5px ;
+    background-color :white ;
+    border-radius :50px ;
+    left :0px ;
+    top:0px ;
+    bottom :0px ;
+    right :0px ;
+    margin :auto ;
+    overflow :hidden ;
+    
+    animation: moon .3s linear infinite;
+  }
+  @keyframes moon{
+    0%{
+      transform :rotate(0deg)translate(25px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(25px)rotate(-360deg) ; 
+    }
+  }
+   .mars{
+    position :absolute ;
+    left :0;
+    right :0;
+    top :0;
+    bottom :0;
+    margin :auto ;
+    width :25px ;
+    height :25px ;
+    background-color :red;
+    border-radius :500px ;
+    animation: mars 4s linear infinite ;
+  }
+@keyframes mars{
+    0%{
+      transform :rotate(0deg)translate(150px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(150px)rotate(-360deg) ; 
+    }
+  }
+   .jupiter{
+    position :absolute ;
+    left :0;
+    right :0;
+    top :0;
+    bottom :0;
+    margin :auto ;
+    width :25px ;
+    height :25px ;
+    background-color :#cc6600;
+    border-radius :500px ;
+    animation: jupiter 5s linear infinite ;
+  }
+@keyframes jupiter{
+    0%{
+      transform :rotate(0deg)translate(190px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(190px)rotate(-360deg) ; 
+    }
+  }
+   .saturn{
+    position :absolute ;
+    left :0;
+    right :0;
+    top :0;
+    bottom :0;
+    margin :auto ;
+    width :25px ;
+    height :25px ;
+    background-color :#ffffcc ;
+    border-radius :500px ;
+    animation: saturn 6s linear infinite ;
+  }
+@keyframes saturn {
+    0%{
+      transform :rotate(0deg)translate(230px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(230px)rotate(-360deg) ; 
+    }
+  }
+   .uranus{
+    position :absolute ;
+    left :0;
+    right :0;
+    top :0;
+    bottom :0;
+    margin :auto ;
+    width :25px ;
+    height :25px ;
+    background-color :#66ffff;
+    border-radius :500px ;
+    animation: uranus 7s linear infinite ;
+  }
+@keyframes uranus{
+    0%{
+      transform :rotate(0deg)translate(270px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(270px)rotate(-360deg) ; 
+    }
+  }
+   .nepture{
+    position :absolute ;
+    left :0;
+    right :0;
+    top :0;
+    bottom :0;
+    margin :auto ;
+    width :25px ;
+    height :25px ;
+    background-color :#6699ff;
+    border-radius :500px ;
+    animation: nepture 8s linear infinite ;
+  }
+@keyframes nepture{
+    0%{
+      transform :rotate(0deg)translate(310px)rotate(0deg) ;
+    }
+    100%{
+      transform :rotate(360deg)translate(310px)rotate(-360deg) ; 
+    }
+  }
+  
+</style>
+<body>
+<div class="sun">
+  <div class="mercury"></div>
+  
+   <div class="venus"></div>
+   
+   <div class="earth">
+     <div class="moon"></div>
+   </div>
+   
+   <div class="mars"></div>
+   
+   <div class="jupiter"></div>
+   
+   <div class="saturn"></div>
+   
+   <div class="uranus"></div>
+   
+   <div class="nepture"></div>
+</div>
+ 
+  </div>
+
+</body>
+
+</html>
